@@ -14,8 +14,8 @@ export const Container = styled.div<ContainerProps>`
   flex-direction: column;
   align-items: flex-start;
   width: ${({ width }) => width || '100%'};
-  height: 10px;
-  /* height: ${({ height }) => height || 'auto'}; */
+  /* height: 10px; */
+  height: ${({ height }) => height || 'auto'};
   margin-top: ${({ marginVertical }) => marginVertical || 'none'};
   margin-bottom: ${({ marginVertical }) => marginVertical || 'none'};
   margin-left: ${({ marginHorizontal }) => marginHorizontal || 'none'};

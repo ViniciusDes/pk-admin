@@ -1,4 +1,4 @@
-import { UserData } from '@/services/user/types';
+import { UserData } from '@/services/users/types';
 
 export interface AuthData {
   isAuthenticated: boolean;

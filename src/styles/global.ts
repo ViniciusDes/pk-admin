@@ -213,7 +213,7 @@ export const Col = styled.div<ColProps>`
   gap: ${({ gap }) => gap ?? '0'};
   min-width: ${({ minWd }) => minWd ?? '0'};
   width: ${({ wd }) => wd && wd};
-  height: ${({ hgt }) => hgt && hgt};
+  height: ${({ hgt }) => hgt ?? 'auto'};
   flex: ${({ wd, fl }) => (!wd && !fl ? 1 : fl)};
 `;
 
